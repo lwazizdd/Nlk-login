@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NLK Login</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0f0f0f;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:15px;
+}
+
+.container{
+width:100%;
+max-width:420px;
+background:#1a1a1a;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+
+.header{
+background:#16a34a;
+padding:18px;
+text-align:center;
+color:white;
+font-size:26px;
+font-weight:bold;
+}
+
+.form{
+padding:20px;
+}
+
+label{
+display:block;
+color:#ddd;
+margin-bottom:6px;
+font-size:14px;
+}
+
+input{
+width:100%;
+padding:14px;
+border:none;
+border-radius:6px;
+background:#2a2a2a;
+color:white;
+margin-bottom:15px;
+font-size:16px;
+}
+
+input:focus{
+outline:2px solid #16a34a;
+}
+
+.login-btn{
+width:100%;
+padding:14px;
+background:#16a34a;
+border:none;
+border-radius:6px;
+color:white;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.login-btn:hover{
+opacity:.9;
+}
+
+.links{
+text-align:center;
+margin-top:15px;
+}
+
+.links a{
+display:block;
+color:#16a34a;
+text-decoration:none;
+margin-top:10px;
+}
+
+.footer{
+padding:15px;
+text-align:center;
+color:#888;
+font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+NLK CLASSIC STYLE
+</div>
+
+<div class="form">
+
+<form>
+
+<label>Email</label>
+<input type="email" placeholder="Enter Email">
+
+<label>Password</label>
+<input type="password" placeholder="Enter Password">
+
+<button class="login-btn" type="submit">
+LOGIN
+</button>
+
+</form>
+
+<div class="links">
+<a href="#">Forgot Password?</a>
+<a href="#">Register</a>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 NLK Classic Style
+</div>
+
+</div>
+
+</body>
+</html>
